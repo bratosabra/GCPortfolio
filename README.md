@@ -215,7 +215,7 @@ Include plots and prediction examples like:
 
 ---
 
-## Titanic-Survival-EDA (EDA)
+## Titanic-Survival-EDA
 ### **Overview**
 This project explores the famous Titanic dataset to analyze survival rates based on various features such as age, gender, class, and more. The goal is to use Exploratory Data Analysis (EDA) techniques to generate insights and visualize key patterns in the data.
 
