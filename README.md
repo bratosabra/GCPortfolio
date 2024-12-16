@@ -4,7 +4,7 @@ GCPortfolio is a collection of various projects created using Google Colaborator
 ---
 1. [Sentiment Analysis using IMDB Dataset](#Sentiment-Analysis-using-IMDB-Dataset)
 2. [Handwritten Digit Recognition using MNIST Dataset](#Handwritten-Digit-Recognition-using-MNIST-Dataset)
-3. [Titanic-Survival-EDA](Titanic-Survival-EDA)
+3. [Titanic Survival EDA](Titanic-Survival-EDA)
 ---
 
 ## **Sentiment Analysis using IMDB Dataset**  
@@ -215,7 +215,8 @@ Include plots and prediction examples like:
 
 ---
 
-## Titanic-Survival-EDA
+## **Titanic Survival EDA**
+
 ### **Overview**
 This project explores the famous Titanic dataset to analyze survival rates based on various features such as age, gender, class, and more. The goal is to use Exploratory Data Analysis (EDA) techniques to generate insights and visualize key patterns in the data.
 
