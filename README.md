@@ -4,6 +4,7 @@ GCPortfolio is a collection of various projects created using Google Colaborator
 ---
 1. [Sentiment Analysis using IMDB Dataset](#Sentiment-Analysis-using-IMDB-Dataset)
 2. [Handwritten Digit Recognition using MNIST Dataset](#Handwritten-Digit-Recognition-using-MNIST-Dataset)
+3. [Titanic-Survival-EDA](Titanic-Survival-EDA)
 ---
 
 ## **Sentiment Analysis using IMDB Dataset**  
@@ -211,3 +212,51 @@ Model Prediction: 7 (Confidence: 98.6%)
 Include plots and prediction examples like:   
 ![Без названия (2)](https://github.com/user-attachments/assets/37bb9172-e8ea-4731-a4b8-1582a781ca0e)
 ![Без названия (3)](https://github.com/user-attachments/assets/c20154ed-06a5-478b-934f-295791502600)
+
+---
+
+## Titanic-Survival-EDA (EDA)
+### **Overview**
+This project explores the famous Titanic dataset to analyze survival rates based on various features such as age, gender, class, and more. The goal is to use Exploratory Data Analysis (EDA) techniques to generate insights and visualize key patterns in the data.
+
+
+### Key Features
+- **Data Cleaning:** Handling missing values and encoding categorical variables.
+- **Data Visualization:** Using libraries like Matplotlib and Seaborn to create plots and heatmaps.
+- **Statistical Insights:** Generating summaries and survival statistics by different groups.
+
+### Dataset
+The Titanic dataset is loaded from the `Seaborn` library. Alternatively, you can use the dataset from Kaggle: [Titanic Dataset](https://www.kaggle.com/c/titanic).
+
+### Tools and Libraries
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+### Project Workflow
+1. **Data Loading:** Importing the Titanic dataset.
+2. **Data Cleaning:**
+   - Filling missing values.
+   - Dropping irrelevant columns.
+   - Encoding categorical variables.
+3. **Exploratory Data Analysis (EDA):**
+   - Visualizing distributions of numerical and categorical features.
+   - Analyzing survival rates based on features like age, gender, and class.
+   - Generating heatmaps to identify correlations.
+4. **Conclusion:** Summarizing key findings from the analysis.
+
+### Visualizations
+- **Age Distribution:** Histogram with Kernel Density Estimation (KDE).
+- **Survival by Gender:** Bar plot.
+- **Survival by Class:** Count plot.
+- **Heatmap of Correlations:** Visualizing relationships between variables.
+
+### Example Plots
+![Без названия (1)](https://github.com/user-attachments/assets/9b907943-ddb1-4339-b4d0-c9e17bbd75d4)   
+*Histogram showing the distribution of passengers' ages.*
+
+![Без названия](https://github.com/user-attachments/assets/a26bae56-9164-49e9-8b41-3029e7d6741c)   
+*Count plot of survival rates by passenger class.*
+
