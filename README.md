@@ -109,11 +109,5 @@ pip install tensorflow numpy matplotlib
 Include graphs or screenshots (e.g., accuracy plot) for visualization:  
 ![Без названия](https://github.com/user-attachments/assets/f88168fc-bd72-45f6-86d9-fac115318703)
 
----
-
-### **License**  
-This project is open-source and available under the MIT License.  
-
----
   
 
