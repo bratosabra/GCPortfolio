@@ -2,6 +2,9 @@
 GCPortfolio is a collection of various projects created using Google Colaboratory. This repository serves as a showcase of my work, experiments, and learning journey with data science, machine learning, deep learning, and other related fields.
 
 ---
+[Sentiment Analysis using IMDB Dataset](target-url)
+
+---
 
 ## **Sentiment Analysis using IMDB Dataset**  
 This project performs sentiment analysis on movie reviews using a Long Short-Term Memory (LSTM) neural network. The goal is to classify movie reviews as **positive** or **negative** based on their content.
@@ -37,10 +40,6 @@ pip install tensorflow numpy matplotlib
 ### **How to Run**  
 
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/imdb-sentiment-analysis.git
-   cd imdb-sentiment-analysis
-   ```
 
 2. Open the file in Google Colab or any Python IDE.  
 
@@ -106,11 +105,109 @@ pip install tensorflow numpy matplotlib
 ---
 
 ### **Screenshots**  
-Include screenshots for visualization:  
+Include screenshots for visualization:   
 ![Без названия](https://github.com/user-attachments/assets/f88168fc-bd72-45f6-86d9-fac115318703)
 ![Без названия (1)](https://github.com/user-attachments/assets/0f08a7be-e301-4734-b3bd-cb58b5933754)
 
 
+---
 
-  
+## **Handwritten Digit Recognition using MNIST Dataset**
 
+### **Overview**
+This project focuses on building a simple neural network to recognize handwritten digits (0–9) using the MNIST dataset. The model predicts the digit shown in an input image with high accuracy.
+
+---
+
+### **Features**
+1. **Dataset**: MNIST, consisting of 70,000 grayscale images of handwritten digits.
+2. **Model**: A simple feedforward neural network with two hidden layers.
+3. **Accuracy**: Achieves high accuracy on test data with minimal computation.
+4. **Visualization**: Includes model training graphs and prediction samples.
+
+---
+
+### **Technologies Used**
+- **Python**: Programming language.
+- **TensorFlow/Keras**: Neural network framework.
+- **NumPy**: Data processing.
+- **Matplotlib**: Data visualization.
+
+---
+
+### **Dependencies**
+Install the required libraries with the following command:
+```bash
+pip install tensorflow numpy matplotlib
+```
+
+---
+
+### **How to Run the Project**
+
+1. Clone the repository:
+
+2. Open the notebook file in **Google Colab** or a local Jupyter environment.
+
+3. Run the code step-by-step:
+   - Load the dataset.
+   - Train the neural network.
+   - Evaluate its performance.
+
+4. Test the model by running predictions on random or custom inputs.
+
+---
+
+### **Code Highlights**
+- **Preprocessing**: Normalize input images and apply one-hot encoding for labels.
+- **Model**: A simple sequential model with `Dense` layers.
+- **Training**: The model is trained with the `adam` optimizer and categorical cross-entropy loss.
+- **Visualization**: Graphs for training accuracy and loss, along with example predictions.
+
+---
+
+### **Example Input and Output**
+
+**Input**: A grayscale image of a handwritten digit.  
+**Output**: Predicted digit with its confidence score.
+
+**Sample Visualization**:
+```plaintext
+Input Image: (28x28 pixels)
+Model Prediction: 7 (Confidence: 98.6%)
+```
+
+---
+
+### **Project Workflow**
+
+1. **Dataset Preparation**:
+   - Load MNIST dataset from Keras.
+   - Normalize pixel values (0–255 scaled to 0–1).
+   - Convert labels to categorical format.
+
+2. **Model Creation**:
+   - Use a `Flatten` layer to preprocess input.
+   - Add two `Dense` layers with ReLU activation.
+   - Add a final output layer with `softmax` activation.
+
+3. **Training**:
+   - Train the model for 5 epochs.
+   - Use 20% of training data for validation.
+
+4. **Evaluation**:
+   - Test the model on unseen data.
+   - Display accuracy and example predictions.
+
+---
+
+### **Results**
+- **Training Accuracy**: ~98% after 5 epochs.
+- **Test Accuracy**: ~97%.
+
+---
+
+### **Screenshots**
+Include plots and prediction examples like:   
+![Без названия (2)](https://github.com/user-attachments/assets/37bb9172-e8ea-4731-a4b8-1582a781ca0e)
+![Без названия (3)](https://github.com/user-attachments/assets/c20154ed-06a5-478b-934f-295791502600)
