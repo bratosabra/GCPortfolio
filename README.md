@@ -10,8 +10,6 @@ GCPortfolio is a collection of various projects created using Google Colaborator
 ## **Sentiment Analysis using IMDB Dataset**  
 This project performs sentiment analysis on movie reviews using a Long Short-Term Memory (LSTM) neural network. The goal is to classify movie reviews as **positive** or **negative** based on their content.
 
----
-
 ### **Overview**  
 - **Dataset**: IMDB dataset (pre-built in Keras).  
 - **Model**: LSTM (Long Short-Term Memory).  
@@ -19,15 +17,12 @@ This project performs sentiment analysis on movie reviews using a Long Short-Ter
 - **Input**: Preprocessed movie reviews.  
 - **Output**: Sentiment prediction (Positive/Negative).  
 
----
-
 ### **Features**  
 1. **LSTM Model**: A sequential LSTM network for natural language processing tasks.  
 2. **Ready-to-use Dataset**: IMDB dataset is loaded directly via `Keras.datasets`.  
 3. **Visualization**: Training and validation accuracy plotted over epochs.  
 4. **Custom Input**: Users can input their own text for real-time sentiment analysis.
 
----
 
 ### **Dependencies**  
 Make sure you have the following libraries installed:
@@ -36,19 +31,14 @@ Make sure you have the following libraries installed:
 pip install tensorflow numpy matplotlib
 ```
 
----
 
 ### **How to Run**  
 
 1. Clone the repository:  
-
 2. Open the file in Google Colab or any Python IDE.  
-
 3. Run the code step-by-step.  
-
 4. To predict sentiment on custom text, input a sentence when prompted.  
 
----
 
 ### **Code Explanation**  
 
@@ -58,7 +48,6 @@ pip install tensorflow numpy matplotlib
    from tensorflow.keras.datasets import imdb
    (x_train, y_train), (x_test, y_test) = imdb.load_data(num_words=10000)
    ```
-
 2. **Preprocessing**  
    The text data is padded to ensure uniform input size.  
    ```python
@@ -66,7 +55,6 @@ pip install tensorflow numpy matplotlib
    x_train = sequence.pad_sequences(x_train, maxlen=200)
    x_test = sequence.pad_sequences(x_test, maxlen=200)
    ```
-
 3. **LSTM Model**  
    The LSTM network processes the sequence data and outputs a sentiment prediction.  
    ```python
@@ -76,18 +64,14 @@ pip install tensorflow numpy matplotlib
        tf.keras.layers.Dense(1, activation='sigmoid')
    ])
    ```
-
 4. **Training and Evaluation**  
    The model is trained using binary cross-entropy loss and evaluated on test data.  
    ```python
    model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
    model.fit(x_train, y_train, epochs=3, batch_size=32, validation_data=(x_test, y_test))
    ```
-
 5. **Predict Custom Input**  
    Users can enter any text, and the model will predict whether the sentiment is **positive** or **negative**.  
-
----
 
 ### **Example Input/Output**  
 
@@ -97,19 +81,14 @@ pip install tensorflow numpy matplotlib
 **Output**:  
 `Sentiment: Positive`
 
----
-
 ### **Results**  
 - Achieved high accuracy on the IMDB dataset.  
 - Successfully predicts sentiment on custom inputs.  
-
----
 
 ### **Screenshots**  
 Include screenshots for visualization:   
 ![Без названия](https://github.com/user-attachments/assets/f88168fc-bd72-45f6-86d9-fac115318703)
 ![Без названия (1)](https://github.com/user-attachments/assets/0f08a7be-e301-4734-b3bd-cb58b5933754)
-
 
 ---
 
@@ -118,15 +97,11 @@ Include screenshots for visualization:
 ### **Overview**
 This project focuses on building a simple neural network to recognize handwritten digits (0–9) using the MNIST dataset. The model predicts the digit shown in an input image with high accuracy.
 
----
-
 ### **Features**
 1. **Dataset**: MNIST, consisting of 70,000 grayscale images of handwritten digits.
 2. **Model**: A simple feedforward neural network with two hidden layers.
 3. **Accuracy**: Achieves high accuracy on test data with minimal computation.
 4. **Visualization**: Includes model training graphs and prediction samples.
-
----
 
 ### **Technologies Used**
 - **Python**: Programming language.
@@ -134,30 +109,22 @@ This project focuses on building a simple neural network to recognize handwritte
 - **NumPy**: Data processing.
 - **Matplotlib**: Data visualization.
 
----
-
 ### **Dependencies**
 Install the required libraries with the following command:
 ```bash
 pip install tensorflow numpy matplotlib
 ```
 
----
-
 ### **How to Run the Project**
 
 1. Clone the repository:
-
 2. Open the notebook file in **Google Colab** or a local Jupyter environment.
-
 3. Run the code step-by-step:
    - Load the dataset.
    - Train the neural network.
    - Evaluate its performance.
-
 4. Test the model by running predictions on random or custom inputs.
 
----
 
 ### **Code Highlights**
 - **Preprocessing**: Normalize input images and apply one-hot encoding for labels.
@@ -165,7 +132,6 @@ pip install tensorflow numpy matplotlib
 - **Training**: The model is trained with the `adam` optimizer and categorical cross-entropy loss.
 - **Visualization**: Graphs for training accuracy and loss, along with example predictions.
 
----
 
 ### **Example Input and Output**
 
@@ -177,8 +143,6 @@ pip install tensorflow numpy matplotlib
 Input Image: (28x28 pixels)
 Model Prediction: 7 (Confidence: 98.6%)
 ```
-
----
 
 ### **Project Workflow**
 
@@ -200,13 +164,9 @@ Model Prediction: 7 (Confidence: 98.6%)
    - Test the model on unseen data.
    - Display accuracy and example predictions.
 
----
-
 ### **Results**
 - **Training Accuracy**: ~98% after 5 epochs.
 - **Test Accuracy**: ~97%.
-
----
 
 ### **Screenshots**
 Include plots and prediction examples like:   
@@ -219,7 +179,6 @@ Include plots and prediction examples like:
 
 ### **Overview**
 This project explores the famous Titanic dataset to analyze survival rates based on various features such as age, gender, class, and more. The goal is to use Exploratory Data Analysis (EDA) techniques to generate insights and visualize key patterns in the data.
-
 
 ### Key Features
 - **Data Cleaning:** Handling missing values and encoding categorical variables.
