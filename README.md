@@ -4,7 +4,7 @@ GCPortfolio is a collection of various projects created using Google Colaborator
 ---
 1. [Sentiment Analysis using IMDB Dataset](#Sentiment-Analysis-using-IMDB-Dataset)
 2. [Handwritten Digit Recognition using MNIST Dataset](#Handwritten-Digit-Recognition-using-MNIST-Dataset)
-3. [Titanic Survival EDA](Titanic-Survival-EDA)
+3. [Titanic Survival EDA](#Titanic-Survival-EDA)
 ---
 
 ## **Sentiment Analysis using IMDB Dataset**  
@@ -23,7 +23,6 @@ This project performs sentiment analysis on movie reviews using a Long Short-Ter
 3. **Visualization**: Training and validation accuracy plotted over epochs.  
 4. **Custom Input**: Users can input their own text for real-time sentiment analysis.
 
-
 ### **Dependencies**  
 Make sure you have the following libraries installed:
 
@@ -31,14 +30,12 @@ Make sure you have the following libraries installed:
 pip install tensorflow numpy matplotlib
 ```
 
-
 ### **How to Run**  
 
 1. Clone the repository:  
 2. Open the file in Google Colab or any Python IDE.  
 3. Run the code step-by-step.  
 4. To predict sentiment on custom text, input a sentence when prompted.  
-
 
 ### **Code Explanation**  
 
@@ -125,13 +122,11 @@ pip install tensorflow numpy matplotlib
    - Evaluate its performance.
 4. Test the model by running predictions on random or custom inputs.
 
-
 ### **Code Highlights**
 - **Preprocessing**: Normalize input images and apply one-hot encoding for labels.
 - **Model**: A simple sequential model with `Dense` layers.
 - **Training**: The model is trained with the `adam` optimizer and categorical cross-entropy loss.
 - **Visualization**: Graphs for training accuracy and loss, along with example predictions.
-
 
 ### **Example Input and Output**
 
