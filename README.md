@@ -3,7 +3,7 @@ GCPortfolio is a collection of various projects created using Google Colaborator
 
 ---
 
-### **Sentiment Analysis using IMDB Dataset**  
+## **Sentiment Analysis using IMDB Dataset**  
 This project performs sentiment analysis on movie reviews using a Long Short-Term Memory (LSTM) neural network. The goal is to classify movie reviews as **positive** or **negative** based on their content.
 
 ---
@@ -106,7 +106,7 @@ pip install tensorflow numpy matplotlib
 ---
 
 ### **Screenshots**  
-Include graphs or screenshots (e.g., accuracy plot) for visualization:  
+Include screenshots for visualization:  
 ![Без названия](https://github.com/user-attachments/assets/f88168fc-bd72-45f6-86d9-fac115318703)
 
   
