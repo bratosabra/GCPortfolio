@@ -108,6 +108,9 @@ pip install tensorflow numpy matplotlib
 ### **Screenshots**  
 Include screenshots for visualization:  
 ![Без названия](https://github.com/user-attachments/assets/f88168fc-bd72-45f6-86d9-fac115318703)
+![Без названия (1)](https://github.com/user-attachments/assets/0f08a7be-e301-4734-b3bd-cb58b5933754)
+
+
 
   
 
