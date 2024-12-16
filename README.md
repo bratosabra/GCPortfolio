@@ -2,8 +2,8 @@
 GCPortfolio is a collection of various projects created using Google Colaboratory. This repository serves as a showcase of my work, experiments, and learning journey with data science, machine learning, deep learning, and other related fields.
 
 ---
-[Sentiment Analysis using IMDB Dataset](#Sentiment-Analysis-using-IMDB-Dataset)
-
+1. [Sentiment Analysis using IMDB Dataset](#Sentiment-Analysis-using-IMDB-Dataset)
+2. [Handwritten Digit Recognition using MNIST Dataset](#Handwritten-Digit-Recognition-using-MNIST-Dataset)
 ---
 
 ## **Sentiment Analysis using IMDB Dataset**  
